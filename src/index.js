@@ -1,4 +1,6 @@
-import url from 'url';
+//RUN NPM START FOR BABEL TO WORK
+
+import fetch from 'node-fetch';
 const http = require('http');
 
 export let customer = {
