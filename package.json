@@ -7,6 +7,12 @@
         "start": "node ./start.js",
         "test": "jest --watch"
     },
+    "jest": {
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+            "/node_modules/"
+        ]
+    },
     "author": "",
     "license": "ISC",
     "devDependencies": {
